@@ -20,3 +20,16 @@
 	letter-spacing: 0.03em;
 	color: var(--secondary-header-color);
 }
+
+
+.logo {
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--active-color);
+	text-decoration: none;
+}

@@ -42,3 +42,19 @@ ul {
 	gap: 93px;
 }
 
+
+
+
+
+
+// foot
+
+address {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+}
+
+a {
+	width: max-content;
+}

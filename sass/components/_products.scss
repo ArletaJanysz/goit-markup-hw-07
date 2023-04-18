@@ -30,7 +30,7 @@
 					height: 100%;
 				}
 
-				&__description {
+				& > &__description {
 					color: var(--brand-white-color);
 					font-style: normal;
 					font-size: 18px;
@@ -45,14 +45,14 @@
 				padding: 20px 24px;
 				border: 1px solid var(--card-box-border-color);
 				border-top: 0;
-				.product__box__text__title {
+				&__title {
 					font-weight: 700;
 					font-size: 18px;
 					line-height: 2;
 					letter-spacing: 0.06em;
 					color: var(--card-title-color);
 				}
-				.product__box__text__subtitle {
+				&__subtitle {
 					display: block;
 					line-height: 1.88;
 					letter-spacing: 0.03em;
