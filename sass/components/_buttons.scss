@@ -1,0 +1,18 @@
+
+
+
+// MODAL 
+.close__btn {
+	display: flex;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 30px;
+	height: 30px;
+	background-color: var(--brand-white-color);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
