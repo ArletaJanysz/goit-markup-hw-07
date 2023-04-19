@@ -1,5 +1,8 @@
 /* MODAL HW05 */
 
+
+//   zjedz na dol \/
+
 .modal {
 	padding: 40px;
 	display: block;
@@ -114,10 +117,7 @@
 	align-items: center;
 	&__hidden {
 		display: none;
-		// &:checked {
-		// 	opacity: 1;
-		// 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-		// }
+
 	}
 	&__custom {
 		position: relative;
