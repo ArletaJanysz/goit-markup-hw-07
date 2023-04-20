@@ -1,14 +1,16 @@
 /* NEWSLETTER */
-.newsletter__header {
-	display: flex;
-	color: var(--brand-white-color);
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.1428;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	margin: 12px 0 20px;
 
+.news {
+	.newsletter__header {
+		display: flex;
+		color: var(--brand-white-color);
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.1428;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		margin: 12px 0 20px;
+	}
 	.newsletter {
 		display: flex;
 		flex-direction: row;
