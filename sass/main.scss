@@ -1,5 +1,9 @@
-// basics
-@import "basics/general";
+
+@import "utils/variables";
+
+@import "basics/reset";
+
+@import "utils/reusable";
 
 //components
 @import "components/activities";
@@ -16,6 +20,4 @@
 @import "components/partners";
 @import "components/products";
 
-// utils
-@import "utils/variables";
-@import "utils/reusable";
+
