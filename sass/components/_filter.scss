@@ -8,7 +8,6 @@
 		justify-content: center;
 		margin-bottom: -44px;
 	}
-	// same question o btn
 	&__btn {
 		cursor: pointer;
 		font-family: "Roboto", sans-serif;
@@ -23,9 +22,8 @@
 		padding: 6px 22px;
 		transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-		&:hover,
-		&:focus {
-			background: var(--active-color);
+		&:is(:hover, :focus) {
+			background-color: var(--active-color);
 			border-radius: 4px;
 			color: var(--brand-white-color);
 			box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),

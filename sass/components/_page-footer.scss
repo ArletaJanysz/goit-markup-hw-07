@@ -1,6 +1,6 @@
 //              \/
 
-// foot - ?? 
+// foot - ??
 
 address {
 	display: flex;
@@ -12,51 +12,41 @@ a {
 	width: max-content;
 }
 
-
-
-
 .foot__wrapper {
-	background-color: var(--foot-bg-color);
+	background-color: var(--brand-darkgrey-color);
 	padding: 60px 0;
-
-	& > .container {
-		display: flex;
-		gap: 70px;
-
-		.foot__contact {
-			font-style: normal;
-			font-size: 14px;
-			line-height: 1.71;
-			letter-spacing: 0.03em;
-			margin-top: 20px;
-
-			.foot__contact__link {
-				text-decoration: none;
-				color: var(--foot-link-color);
-				transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-				&:hover,
-				&:focus {
-					color: var(--active-color);
-				}
+	.foot__contact {
+		font-style: normal;
+		font-size: 14px;
+		line-height: 1.71;
+		letter-spacing: 0.03em;
+		margin-top: 20px;
+		&__link {
+			text-decoration: none;
+			color: var(--foot-link-color);
+			transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+			&:is(:hover, :focus) {
+				color: var(--active-color);
 			}
 		}
 	}
-}
-
-.footer__socials__join {
-	color: var(--brand-white-color);
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.1428;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-	margin-top: 12px;
-	.footer__socials__links {
-		display: flex;
-		flex-direction: row;
-		gap: 10px;
-		.footer__socials {
+	.footer__socials {
+		.footer__socials__join {
+			color: var(--brand-white-color);
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 1.1428;
+			letter-spacing: 0.03em;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+			margin-top: 12px;
+		}
+		.footer__socials__list {
+			display: flex;
+			flex-direction: row;
+			gap: 10px;
+		}
+		.footer__socials__link {
 			background-color: rgba(255, 255, 255, 0.1);
 			border-radius: 50%;
 			display: flex;
