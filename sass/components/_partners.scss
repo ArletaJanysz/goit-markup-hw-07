@@ -18,12 +18,12 @@
 			border-color: var(--active-color);
 			fill: var(--active-color);
 		}
-		& > &__img {
+		& > &-img {
 			fill: var(--icons-fill);
 			transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 		}
 
-		&:is(:hover, :focus) > &__img {
+		&:is(:hover, :focus) > &-img {
 			border-color: var(--active-color);
 			fill: var(--active-color);
 		}

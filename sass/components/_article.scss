@@ -4,6 +4,7 @@
 	display: flex;
 	gap: 30px;
 	margin-bottom: -94px;
+
 	&__icons {
 		width: 270px;
 		height: 120px;
@@ -12,6 +13,7 @@
 		background: var(--article-icon-bg);
 		border-radius: 4px;
 	}
+
 	&__title {
 		font-weight: 700;
 		font-size: 14px;
@@ -20,6 +22,7 @@
 		text-transform: uppercase;
 		color: var(--almost-black-color);
 	}
+
 	&__text {
 		font-size: 14px;
 		line-height: 1.71;

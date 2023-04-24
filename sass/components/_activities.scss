@@ -4,9 +4,11 @@
 	display: flex;
 	list-style-type: none;
 	gap: 30px;
+
 	&__item {
 		position: relative;
 	}
+
 	&__overlay {
 		display: flex;
 		position: absolute;
@@ -17,7 +19,8 @@
 		background: rgba(47, 48, 58, 0.8);
 		align-items: center;
 		justify-content: center;
-		&__text {
+
+		&-text {
 			display: flex;
 			font-weight: 700;
 			font-size: 14px;
