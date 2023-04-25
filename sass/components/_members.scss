@@ -54,7 +54,7 @@
 		transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
-	&__socials-link > .member__socials-icon {
+	&__socials-link > &__socials-icon {
 		fill: var(--icons-fill);
 	}
 
@@ -62,7 +62,7 @@
 		background-color: var(--active-color);
 	}
 
-	&__socials-link:is(:hover, :focus) > .member__socials-icon {
+	&__socials-link:is(:hover, :focus) > &-icon {
 		fill: var(--brand-white-color);
 	}
 }
