@@ -21,6 +21,7 @@
 		overflow: hidden;
 		transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
+
 	&__wrapper:is(:hover, :focus) > &__overlay {
 		bottom: 0;
 		height: 100%;
@@ -28,7 +29,7 @@
 
 	&__overlay {
 		position: absolute;
-		
+
 		left: 0;
 		overflow: hidden;
 		width: 100%;

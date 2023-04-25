@@ -78,6 +78,7 @@
 		color: var(--form-labels);
 		margin-bottom: 4px;
 	}
+	
 	&__input-wrapper {
 		position: relative;
 	}
@@ -94,6 +95,7 @@
 			border-color: var(--active-color);
 		}
 	}
+
 	&__input:focus ~ &__input-icon {
 		fill: var(--active-color);
 	}
@@ -156,6 +158,10 @@
 	gap: 7px;
 	justify-content: center;
 	align-items: center;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
 
 	&--hidden {
 		display: none;
@@ -180,10 +186,6 @@
 
 		&-text {
 			color: var(--form-labels);
-			font-weight: 400;
-			font-size: 14px;
-			line-height: 1.71;
-			letter-spacing: 0.03em;
 		}
 
 		& > .checkbox__inset-img {

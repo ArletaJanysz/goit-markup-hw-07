@@ -1,15 +1,16 @@
-.head__wrapper {
-	border-bottom: 1px solid var(--border-bottom-color);
-	background-color: var(--bg-color);
-	padding: 24px 0 25px;
-	gap: 93px;
-}
+.head {
+	&__wrapper {
+		border-bottom: 1px solid var(--border-bottom-color);
+		background-color: var(--bg-color);
+		padding: 24px 0 25px;
+		gap: 93px;
+	}
 
-.head__container {
-	display: flex;
-	align-items: baseline;
+	&__container {
+		display: flex;
+		align-items: baseline;
+	}
 }
-
 .nav {
 	display: flex;
 	font-weight: 500;
@@ -19,6 +20,7 @@
 
 	&__list {
 		display: flex;
+		align-items: center;
 		gap: 46px;
 		text-decoration: none;
 		color: var(--brand-black-color);
@@ -38,7 +40,7 @@
 
 		&--active {
 			color: var(--active-color);
-			&--::after {
+			&::after {
 				content: "";
 				position: absolute;
 				display: block;
