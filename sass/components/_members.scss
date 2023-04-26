@@ -62,7 +62,7 @@
 		background-color: var(--active-color);
 	}
 
-	&__socials-link:is(:hover, :focus) > &-icon {
+	&__socials-link:is(:hover, :focus) > &__socials-icon {
 		fill: var(--brand-white-color);
 	}
 }
